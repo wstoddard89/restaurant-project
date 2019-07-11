@@ -2,7 +2,7 @@
 | ----------| ----------|-----------|-----------|
 | Jacob     | Geoffrey  | Malina    | Jamie     |
 | Dylan     | Monet     | Talei     | Julie     |
-                                    | Siny      |
+|           |           |           | Siny      |
                                     
 # Group Project
 
