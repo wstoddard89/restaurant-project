@@ -1,8 +1,9 @@
-| Team1     | Team2     |  Team3    |  Team4    |  Team5    |  Team6    |
-| ----------| ----------|-----------|-----------|-----------|-----------|
-| Nova      | Sean      |Cruz       |Rendon     |Adam       |Austin     |
-| Tissiana  | Tyler     |Cesar      |Raul       |Beovanni   |Stephanie  |
-
+| Team1     | Team2     |  Team3    |  Team4    | 
+| ----------| ----------|-----------|-----------|
+| Jacob     | Geoffrey  | Malina    | Jamie     |
+| Dylan     | Monet     | Talei     | Julie     |
+                                    | Siny      |
+                                    
 # Group Project
 
 
