@@ -1,7 +1,7 @@
-| Team1    | Team2 | Team3  | Team4      | Team5 | Team6 | Team7  |
-| -------- | ----- | ------ | ---------- | ----- | ----- | ------ |
-| Alex G   | John  | Danilo | Steve(Laz) | Denia | Shey  | Amy    |
-| Mitchell | Luis  | Ainhoa | Jasper     | Jimmy | Kaden | Alex M |
+| Team1 | Team2   | Team3 | Team4    | Team5   | Team6 | Team7  |
+| ----- | ------- | ----- | -------- | ------- | ----- | ------ |
+| Almas | Irene   | Kyler | Justin   | Michael | Dave  | Robert |
+| Logan | Norbert | Julio | Khadijah | Colin   | Nick  | Bronco |
 
 # Group Project
 
