@@ -1,8 +1,3 @@
-| Team1 | Team2   | Team3 | Team4    | Team5   | Team6 | Team7  |
-| ----- | ------- | ----- | -------- | ------- | ----- | ------ |
-| Almas | Irene   | Kyler | Justin   | Michael | Dave  | Robert |
-| Logan | Norbert | Julio | Khadijah | Colin   | Nick  | Bronco |
-
 # Group Project
 
 Welcome to your first group project. The point of this to have fun and to work together with your team. Below is a "writeup" from a client about what they are looking for. Even though "they" get pretty specific, you still have a lot of liberty with this so long as you get all of the required pieces in place.
