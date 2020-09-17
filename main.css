@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: helvetica, arial, sans-serif;
+}
+
+#container {
+  width: 65%;
+  height: 100%;
+  margin: auto;
+  
+}
+
+#header {
+  display: flex;
+  height: 90px;
+  border-bottom: solid 1px #C6C6C6;
+  justify-content: space-between;
+}
+
+#logo h1 {
+  font-size: 48px;
+  color: #2C2F1A;
+  margin-top: 8px;
+}
+
+#headerMedia {
+  height: 70px;
+  width: 220px;
+  border: solid 1px #E5E5E5;
+  background-color: #F7F7F7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  flex-direction: column;
+}
+
+#mediaIcons {
+  font-size: 10px;
+}
+
+#restaurantImage {
+  width: 100%;
+  height: 270px;
+  margin-top: 20px;
+  background-image: url("https://images.unsplash.com/photo-1599250300427-23ccb52bdabb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 30%;
+}
