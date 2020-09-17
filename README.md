@@ -65,7 +65,7 @@ Each of our food items has special notes on it and if a note matches then the ic
 - [Mockups](http://pc-restaurant.surge.sh/)
 - [Custom Restaurant API](https://obscure-tundra-54269.herokuapp.com/)
 - [The Noun Project](http://thenounproject.com/)
-- [Icon Fonts](http://weloveiconfonts.com/)
+- [Icon Fonts] (https://fontawesome.com/icons?d=gallery)
 - [Creative Commons Images](https://www.flickr.com/creativecommons/)
 - [Flickr's Photo API](https://www.flickr.com/services/api/)
 - [Google Maps Embed API](https://developers.google.com/maps/documentation/embed/)
