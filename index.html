@@ -4,6 +4,135 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Restaurant</title>
+    <link href="second.css" rel="stylesheet" />
   </head>
-  <body></body>
+  <body>
+    <div class="bigBoyDiv">
+      <div class="myPart">
+        <nav class="navPart">
+          <button class="ourStory tablinks" onclick="makeItHappen(event, 'part1')">
+            Our Story
+          </button>
+          <button class="menu tablinks" onclick="makeItHappen(event, 'part2')">
+            Menu
+          </button>
+          <button
+            class="reservations tablinks"
+            onclick="makeItHappen(event, 'part3')"
+          >
+            Reservations
+          </button>
+        </nav>
+        <div id="part1" class="tabcontent">
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.
+          </p>
+          <img
+            class="gourmetShitImg"
+            src="https://images.unsplash.com/photo-1541557435984-1c79685a082b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80"
+            alt="McDonald's chefs at work"
+          />
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged. It was popularised in the 1960s
+            with the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.
+          </p>
+        </div>
+        <div id="part2" class="tabcontent">
+          <h2>Our Dinner Selection...</h2>
+          <h2>APPETIZERS</h2>
+          <h5>Salmon Carpaccio</h5>
+          <p>
+            Lorem ipsum sit amet, consectetuer adipiscing elit, sed diam nonummy
+            nibh euismod tincidunt ut laoreet dolre manga aliquam eratbo utpat.
+            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcoper
+            suscipit lobortis nisl
+          </p>
+          <h5>Salmon Carpaccio</h5>
+          <p>
+            Lorem ipsum sit amet, consectetuer adipiscing elit, sed diam nonummy
+            nibh euismod tincidunt ut laoreet dolre manga aliquam eratbo utpat.
+            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcoper
+            suscipit lobortis nisl
+          </p>
+          <h5>Salmon Carpaccio</h5>
+          <p>
+            Lorem ipsum sit amet, consectetuer adipiscing elit, sed diam nonummy
+            nibh euismod tincidunt ut laoreet dolre manga aliquam eratbo utpat.
+            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcoper
+            suscipit lobortis nisl
+          </p>
+          <h5>Salmon Carpaccio</h5>
+          <p>
+            Lorem ipsum sit amet, consectetuer adipiscing elit, sed diam nonummy
+            nibh euismod tincidunt ut laoreet dolre manga aliquam eratbo utpat.
+            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcoper
+            suscipit lobortis nisl
+          </p>
+          <h2>ENTREES</h2>
+          <h5>Seared Ahi Tuna Steak</h5>
+          <p>
+            Lorem ipsum sit amet, consectetuer adipiscing elit, sed diam nonummy
+            nibh euismod tincidunt ut laoreet dolre manga aliquam eratbo utpat.
+            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcoper
+            suscipit lobortis nisl
+          </p>
+          <h5>Seared Ahi Tuna Steak</h5>
+          <p>
+            Lorem ipsum sit amet, consectetuer adipiscing elit, sed diam nonummy
+            nibh euismod tincidunt ut laoreet dolre manga aliquam eratbo utpat.
+            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcoper
+            suscipit lobortis nisl
+          </p>
+          <h5>Seared Ahi Tuna Steak</h5>
+          <p>
+            Lorem ipsum sit amet, consectetuer adipiscing elit, sed diam nonummy
+            nibh euismod tincidunt ut laoreet dolre manga aliquam eratbo utpat.
+            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcoper
+            suscipit lobortis nisl
+          </p>
+          <h5>Seared Ahi Tuna Steak</h5>
+          <p>
+            Lorem ipsum sit amet, consectetuer adipiscing elit, sed diam nonummy
+            nibh euismod tincidunt ut laoreet dolre manga aliquam eratbo utpat.
+            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcoper
+            suscipit lobortis nisl
+          </p>
+        </div>
+        <div id="part3" class="tabcontent">
+          <form class="inputs">
+            <label>Full Name</label>
+            <input id="fname" />
+            <label>Number of Guests</label>
+            <input id="guests" />
+            <label>Date</label>
+            <input id="date" />
+            <label>Special Notes</label>
+            <textarea id="notes"></textarea>
+            <label>Seating Preference</label>
+            <select id="seating">
+              <option value="indoor">Indoor</option>
+              <option value="Outdoor">Outdoor</option>
+            </select>
+            <button type="submit" id="reserve">Reserve Table</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="second.js"></script>
+  </body>
 </html>
