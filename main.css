@@ -10,6 +10,7 @@ html, body {
   font-family: helvetica, arial, sans-serif;
 }
 
+/* WHOLE CONTAINER */
 #container {
   width: 65%;
   height: 100%;
@@ -17,6 +18,7 @@ html, body {
   
 }
 
+/* HEADER */
 #header {
   display: flex;
   height: 90px;
@@ -46,6 +48,7 @@ html, body {
   font-size: 10px;
 }
 
+/* RESTAURANT IMAGE */
 #restaurantImage {
   width: 100%;
   height: 270px;
@@ -54,4 +57,54 @@ html, body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 30%;
+}
+
+/* THREE CARDS/BOXES */
+#threeCards {
+  display: flex;
+  justify-content: space-between;
+  height: 230px;
+  margin-top: 20px;
+}
+
+.eachCard {
+  width: 31.7%;
+  border: solid 1px #C3C3C3;
+  background-color: #EBEBEB;
+}
+
+.cardHeader {
+  height: 40px;
+  width: 92%;
+  margin: auto;
+  border-bottom: solid 1px #C8C8C8;
+  font-size: 14px;
+  padding-top: 12px;
+  color: #606060;
+}
+
+.cardBody {
+  width: 88%;
+  margin: auto;
+  color: #606060;
+}
+
+#headerBold {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#body1pgraph {
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+#embeddedMap {
+  height: 
 }
