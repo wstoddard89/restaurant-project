@@ -48,6 +48,11 @@ html, body {
   font-size: 10px;
 }
 
+#header i {
+  height: 15px;
+  width: 10px;
+}
+
 /* RESTAURANT IMAGE */
 #restaurantImage {
   width: 100%;
@@ -59,7 +64,7 @@ html, body {
   background-position: 30%;
 }
 
-/* THREE CARDS/BOXES */
+/* ALL THREE CARDS/BOXES */
 #threeCards {
   display: flex;
   justify-content: space-between;
@@ -100,11 +105,54 @@ html, body {
   font-style: italic;
 }
 
+/* CARD/BOX 1 */
 #body1pgraph {
   font-size: 11px;
   line-height: 1.6;
 }
 
+/* CARD/BOX 2 */
+#specialImage {
+  width: 100%;
+  height: 106px;
+  border: solid 1px #C3C3C3;
+  margin-top: 20px;
+  background-image: url('https://images.unsplash.com/photo-1446611720526-39d16597055c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 20%;
+}
+
+#specialItem {
+  margin-top: 14px;
+}
+
+#specialBold {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#body2pgraph {
+  font-size: 10px;
+}
+
+/* CARD/BOX 3 */
 #embeddedMap {
-  height: 
+  border: solid 1px #C3C3C3;
+  margin-top: 20px;
+}
+
+#address span {
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  margin-top: 14px;
+}
+
+#locationFooter {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  margin-top: 14px;
 }
