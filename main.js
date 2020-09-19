@@ -5,10 +5,10 @@ const appetizerMenu = fetch(
   .then((menu) => {
     const appTab = menu.appetizers
       .map(function (i) {
-        return `<div class="flex-thing">
+        return `<div class="flex-thing2">
       <div class="menuItems">
-          <p>${i.name}</p>
-          <p>${i.description}</p>
+          <p class="itemName">${i.name}</p>
+          <p class="itemDescription">${i.description}</p>
       </div>
       <div class="itemPrice">
           <p>${i.price}</p>
@@ -26,10 +26,10 @@ const entreeMenu = fetch(
   .then((menu) => {
     const entreeTab = menu.entrees
       .map(function (i) {
-        return `<div class="flex-thing">
+        return `<div class="flex-thing2">
         <div class="menuItems">
-            <p>${i.name}</p>
-            <p>${i.description}</p>
+            <p class="itemName">${i.name}</p>
+            <p class="itemDescription">${i.description}</p>
         </div>
         <div class="itemPrice">
             <p>${i.price}</p>
@@ -47,12 +47,12 @@ const dessertMenu = fetch(
   .then((menu) => {
     const dessertTab = menu.desserts
       .map(function (i) {
-        return `<div class="flex-thing3">
-        <div class="menuItems3">
-            <p>${i.name}</p>
-            <p>${i.description}</p>
+        return `<div class="flex-thing2">
+        <div class="menuItems">
+            <p class="itemName">${i.name}</p>
+            <p class="itemDescription">${i.description}</p>
         </div>
-        <div class="itemPrice3">
+        <div class="itemPrice">
             <p>${i.price}</p>
         </div>
         </div>`
