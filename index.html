@@ -14,7 +14,7 @@
     <div id="container">
       <div id="header">
         <div id="logo">
-          <h1>Logo</h1>
+          <h1>Wacdonald's</h1>
         </div>
         <div id="headerMedia">
           <div id="twitterIcon"><i class="fa fa-twitter"></i></div>
@@ -92,18 +92,21 @@
       <div id="bottomContainer">
         <div class="wholeMenu">
         <div id="topTabs">
-          <a href="ourStory">
+          <a class="eachTab activeTab" target="#" href="#ourStory">
             <div id="ourStory"><span>Our Story</span></div>
           </a>
-          <a href="menu">
+          <a class="eachTab" target="#" href="#menu">
             <div id="menu">Menu</div>
           </a>
-          <a href="reservations">
+          <a class="eachTab" target="#" href="#reservations">
             <div id="reservations">Reservations</div>
           </a>
           <div id="emptyTab"></div>
         </div>
-        
+        <div id="ourStoryTab" class="tabContent active">
+          f;alsdjfksldkfjsdl;kfj;dlsfj
+        </div>
+        <div class="tabContent">
           <div id="menuTitle">Our Dinner Selection...</div>
           <div id="appTitle" class="sectionTitle">Appetizers</div>
           <div id="appsTab">
@@ -121,7 +124,27 @@
             <div class="itemPrice3"></div>
           </div>
         </div>
-
+        <div id="reservationTab" class="tabContent">
+        <div id="reservation">
+      <form action="" method="GET">
+        <label for="fullname">Full Name</label><br />
+        <input class="form-input" type="text" id="fullName" name="fname" /><br />
+        <label for="numberofguest">Number of Guests</label><br />
+        <input class="form-input" type="text" id="numberOfGuest" name="guest" /><br />
+        <label for="date">Date</label><br />
+        <input class="form-input" type="text" id="reservationDate" name="rDate" /><br />
+        <label for="specialNotes">Special Notes</label><br />
+        <textarea class="form-input" name="specialNotes" id="specialNotes" cols="30" rows="8"></textarea>  <br/>
+        <label for="seating">Seating Preference</label><br />
+        <select class="form-input" id="seatingP" name="seating" >
+          <option value="indoor">Indoor</option>
+          <option value="outdoor">Outdoor</option>
+          </select
+        ><br />
+        <button id='reservationButton' type="button">Reserve Table</button>
+        </div>
+        </div>
+        </div>
         <div id="foodPhotos">
           <div id="photosHeader">
             <span>Food Photos...</span>

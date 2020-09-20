@@ -11,6 +11,19 @@ body {
   font-family: helvetica, arial, sans-serif;
 }
 
+/* ACTIVE CLASS */
+/* .active {
+  display: block;
+} */
+
+/* .activeTab {
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-bottom: none;
+} */
+
+
 /* WHOLE CONTAINER */
 #container {
   width: 65%;
@@ -29,7 +42,7 @@ body {
 
 #logo h1 {
   font-size: 48px;
-  color: #2c2f1a;
+  color: #EEC34F;
   margin-top: 8px;
 }
 
@@ -175,13 +188,14 @@ body {
   color: #505050;
 }
 
+
 #ourStory {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 60px;
   width: 120px;
-  border: solid 1px #EAEAEA;
+  border-bottom: solid 1px grey;
 }
 
 #menu {
@@ -190,7 +204,8 @@ body {
   align-items: center;
   height: 60px;
   width: 90px;
-  border: solid 1px #EAEAEA;
+  border-bottom: solid 1px grey;
+  
 }
 
 #reservations {
@@ -199,16 +214,32 @@ body {
   align-items: center;
   height: 60px;
   width: 120px;
-  border: solid 1px #EAEAEA;
+  border-bottom: solid 1px grey;
+  
 }
 
 #emptyTab {
   height:60px;
   flex-grow: 1;
-  border-bottom: solid 1px #EAEAEA;
+  border-bottom: solid 1px grey;
 }
 
 /* MENU TAB */
+.tabContent {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.activeTab {
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-bottom: none;
+}
+
 #menuTitle {
   font-size: 22px;
   border-bottom: solid 1px#c6c6c6;
@@ -353,4 +384,65 @@ body {
   font-size: 10px;
   padding-top: 25px;
   color: #606060;
+}
+/* OUR STORY PAGE */
+#ourStoryTab {
+  width: 674px;
+}
+/* RESERVATION PAGE */
+#reservationTab {
+  width: 674px;
+}
+#reservation {
+  padding-bottom: 15px;
+}
+
+#reservationButton {
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  font-size: 17px;
+  height: 35px;
+  width: 135px;
+  border: none;
+}
+
+label {
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.form-input {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+#fullName {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 25%;
+  height: 23px;
+}
+
+#numberOfGuest {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 8%;
+  height: 23px;
+}
+
+#specialNotes {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 35%;
+  height: 63px;
+}
+
+#reservationDate {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 15%;
+  height: 23px;
 }

@@ -1,3 +1,12 @@
+// const buildExtras = (extras) => {
+//   let response = ``
+//   for(let extra in extras) {
+//     response += `<span>${extras[extra]}</span>`
+//   }
+//   return response
+//}
+
+// FETCHES FOR MENU API
 const appetizerMenu = fetch(
   "https://obscure-tundra-54269.herokuapp.com/fine-dining"
 )
@@ -13,6 +22,7 @@ const appetizerMenu = fetch(
       </div>
       <div class="itemPrice">
           <p>${i.price}</p>
+          
       </div>
       </div>`
       })
@@ -34,6 +44,7 @@ const entreeMenu = fetch(
         </div>
         <div class="itemPrice">
             <p>${i.price}</p>
+            
         </div>
         </div>`
       })
@@ -55,9 +66,28 @@ const dessertMenu = fetch(
         </div>
         <div class="itemPrice">
             <p>${i.price}</p>
+            
         </div>
         </div>`
       })
       .join("")
     document.querySelector("#dessertTab").innerHTML = dessertTab
   })
+
+
+  //FUNCTIONS TO DISPLAY NONE OR BLOCK
+let tabs = document.querySelectorAll(".eachTab")
+let contents = document.querySelectorAll(".tabContent")
+const handleClick = (e, btn) => {
+  e.preventDefault()
+  tabs.forEach((target) => {
+    target.classList.remove("activeTab")
+  })
+  e.currentTarget.classList.add("activeTab")
+  contents.forEach((x) => x.classList.remove("active"))
+  btn.classList.add("active")
+}
+tabs.forEach((target, i) => {
+  target.addEventListener("click", (e) => handleClick(e, contents[i]))
+})
+
