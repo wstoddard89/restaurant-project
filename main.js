@@ -6,6 +6,7 @@ const appetizerMenu = fetch(
     const appTab = menu.appetizers
       .map(function (i) {
         return `<div class="flex-thing2">
+      
       <div class="menuItems">
           <p class="itemName">${i.name}</p>
           <p class="itemDescription">${i.description}</p>
