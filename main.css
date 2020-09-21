@@ -179,7 +179,6 @@ body {
 /* ALL THREE TABS */
 #topTabs {
   display: flex;
-  padding-left: 30px;
   margin-bottom: 40px;
 }
 
@@ -189,7 +188,7 @@ body {
 }
 
 
-#ourStory {
+.ourStory {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -198,7 +197,7 @@ body {
   border-bottom: solid 1px grey;
 }
 
-#menu {
+.menu {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -208,7 +207,7 @@ body {
   
 }
 
-#reservations {
+.reservations {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -337,7 +336,7 @@ body {
 .photoContainer {
   width: 90%;
   height: 215px;
-  border: solid 1px #c3c3c3;
+  border: solid 2px #c3c3c3;
   margin-top: 15px;
   margin-bottom: 15px;
 }
@@ -389,6 +388,17 @@ body {
 #ourStoryTab {
   width: 674px;
 }
+
+#ourStoryTab img {
+  width: 100%;
+  height: auto;
+}
+
+.storyPgraph {
+  line-height: 1.7;
+  color: #747474;
+}
+
 /* RESERVATION PAGE */
 #reservationTab {
   width: 674px;
@@ -419,30 +429,36 @@ label {
   margin-bottom: 15px;
 }
 
+#reservationTab input {
+  height: 40px;
+}
+
+
 #fullName {
   margin-top: 10px;
   margin-bottom: 10px;
-  width: 25%;
-  height: 23px;
+  width: 52%;
 }
 
 #numberOfGuest {
   margin-top: 10px;
   margin-bottom: 10px;
-  width: 8%;
-  height: 23px;
+  width: 22%;
 }
 
 #specialNotes {
   margin-top: 10px;
   margin-bottom: 10px;
-  width: 35%;
-  height: 63px;
+  width: 60%;
+  height: 90px;
 }
 
 #reservationDate {
   margin-top: 10px;
   margin-bottom: 10px;
-  width: 15%;
-  height: 23px;
+  width: 38%;
+}
+
+#seatingP {
+  width: 90px;
 }
