@@ -1,0 +1,464 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: helvetica, arial, sans-serif;
+}
+
+/* ACTIVE CLASS */
+/* .active {
+  display: block;
+} */
+
+/* .activeTab {
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-bottom: none;
+} */
+
+
+/* WHOLE CONTAINER */
+#container {
+  width: 65%;
+  height: 100%;
+  margin: auto;
+}
+
+/* HEADER */
+#header {
+  display: flex;
+  height: 90px;
+  border-bottom: solid 1px #c6c6c6;
+  justify-content: space-between;
+  margin-top: 31px;
+}
+
+#logo h1 {
+  font-size: 48px;
+  color: #EEC34F;
+  margin-top: 8px;
+}
+
+#headerMedia {
+  height: 70px;
+  width: 220px;
+  border: solid 1px #e5e5e5;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 13px;
+  color: #aeb5bc;
+}
+
+#headerMedia div {
+  height: 25px;
+  width: 20px;
+  font-size: 30px;
+}
+
+/* RESTAURANT IMAGE */
+#restaurantImage {
+  width: 100%;
+  height: 270px;
+  margin-top: 20px;
+  background-image: url("https://images.unsplash.com/photo-1599250300427-23ccb52bdabb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 30%;
+}
+
+/* ALL THREE CARDS/BOXES */
+#threeCards {
+  display: flex;
+  justify-content: space-between;
+  height: 230px;
+  margin-top: 20px;
+}
+
+.eachCard {
+  width: 31.7%;
+  border: solid 1px #c3c3c3;
+  background-color: #ebebeb;
+}
+
+.cardHeader {
+  height: 40px;
+  width: 92%;
+  margin: auto;
+  border-bottom: solid 1px #c8c8c8;
+  font-size: 14px;
+  padding-top: 12px;
+  color: #606060;
+}
+
+.cardBody {
+  width: 88%;
+  margin: auto;
+  color: #606060;
+}
+
+/* CARD/BOX 1 */
+#body1pgraph {
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+#headerBold {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* CARD/BOX 2 */
+#specialImage {
+  width: 100%;
+  height: 106px;
+  border: solid 1px #c3c3c3;
+  margin-top: 20px;
+  background-image: url("https://images.unsplash.com/photo-1446611720526-39d16597055c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 20%;
+}
+
+#specialItem {
+  margin-top: 14px;
+}
+
+#specialBold {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#body2pgraph {
+  font-size: 10px;
+}
+
+/* CARD/BOX 3 */
+#embeddedMap {
+  border: solid 1px #c3c3c3;
+  margin-top: 20px;
+}
+
+#address span {
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  margin-top: 14px;
+}
+
+#locationFooter {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  margin-top: 14px;
+}
+
+/* BOTTOM CONTAINER */
+#bottomContainer {
+  display: flex;
+  width: 100%;
+  margin-top: 40px;
+  justify-content: space-between;
+}
+
+/* ALL THREE TABS */
+#topTabs {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+#topTabs a:link, a:visited {
+  text-decoration: none;
+  color: #505050;
+}
+
+
+.ourStory {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 120px;
+  border-bottom: solid 1px grey;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 90px;
+  border-bottom: solid 1px grey;
+  
+}
+
+.reservations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 120px;
+  border-bottom: solid 1px grey;
+  
+}
+
+#emptyTab {
+  height:60px;
+  flex-grow: 1;
+  border-bottom: solid 1px grey;
+}
+
+/* MENU TAB */
+.tabContent {
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.activeTab {
+  border-top: 1px solid grey;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+  border-bottom: none;
+}
+
+#menuTitle {
+  font-size: 22px;
+  border-bottom: solid 1px#c6c6c6;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-bottom: 2px;
+}
+
+#appTitle {
+  border-top: solid 8px #F0F0F0;
+  padding-top: 25px;
+}
+
+.sectionTitle {
+  font-size: 22px;
+  font-weight: bold;
+  border-bottom: solid 1px #c6c6c6;
+  font-style: italic;
+  padding-bottom: 15px;
+}
+
+#appsTab {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+#entreesTab {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+#dessertTab {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  padding-left: 10px;
+}
+
+.menuItems {
+  width: 90%;
+  height: 30%;
+  
+}
+
+.itemName {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.itemDescription {
+  font-size: 14px;
+}
+
+
+.wholeMenu {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-thing2 {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.itemPrice {
+  display: flex;
+  justify-content: flex-end;
+  width: 10%;
+  height: 30%
+}
+
+
+/* FOOD PHOTOS */
+#photosHeader {
+  align-self: flex-start;
+  margin-left: 25px;
+  color: #2c2f1a;
+  font-size: 20px;
+  font-style: italic;
+}
+
+#foodPhotos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 36%;
+}
+
+.photoContainer {
+  width: 90%;
+  height: 215px;
+  border: solid 2px #c3c3c3;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#photoOne {
+  background-image: url("https://images.unsplash.com/photo-1560971017-56ff49e80303?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1512&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#photoTwo {
+  background-image: url("https://images.unsplash.com/photo-1550326897-5a81430de6ff?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 10%;
+  background-position-x: 58%;
+}
+
+#photoThree {
+  background-image: url("https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: 50%;
+}
+
+#photoFour {
+  background-image: url("https://images.unsplash.com/photo-1541522318014-d696d8cb4173?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1402&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#photoFive {
+  background-image: url("https://images.unsplash.com/photo-1503525642560-ecca5e2e49e9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1061&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: 80%;
+}
+
+/* FOOTER */
+#footer {
+  width: 100%;
+  height: 100px;
+  border-top: solid 1px #c6c6c6;
+  font-size: 10px;
+  padding-top: 25px;
+  color: #606060;
+}
+/* OUR STORY PAGE */
+#ourStoryTab {
+  width: 674px;
+}
+
+#ourStoryTab img {
+  width: 100%;
+  height: auto;
+}
+
+.storyPgraph {
+  line-height: 1.7;
+  color: #747474;
+}
+
+/* RESERVATION PAGE */
+#reservationTab {
+  width: 674px;
+}
+#reservation {
+  padding-bottom: 15px;
+}
+
+#reservationButton {
+  background-color: black;
+  color: white;
+  border-radius: 4px;
+  font-size: 17px;
+  height: 35px;
+  width: 135px;
+  border: none;
+}
+
+label {
+  font-size: 15px;
+  color: black;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.form-input {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+#reservationTab input {
+  height: 40px;
+}
+
+
+#fullName {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 52%;
+}
+
+#numberOfGuest {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 22%;
+}
+
+#specialNotes {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 60%;
+  height: 90px;
+}
+
+#reservationDate {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 38%;
+}
+
+#seatingP {
+  width: 90px;
+}
